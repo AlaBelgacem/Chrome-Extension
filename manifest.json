@@ -1,0 +1,21 @@
+{
+    "manifest_version":2,
+    "name": "Hello World",
+    "version":"1.0",
+    "description": "Hello World ",
+    "background": {
+        "scripts": ["popup.js"]
+      },
+
+    "page_action": {
+        "default_icon" : "icon16.png",
+        "default_title" : "test test"
+    },
+    "permissions":[
+        "tabs"
+    ],
+    "icons" : {
+        "128":"icon128.png",
+        "48": "icon48.png"
+    }
+}
